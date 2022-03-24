@@ -1,0 +1,31 @@
+﻿@model CV_Raul.Models.ClassEmail
+
+@{
+    ViewData["Title"] = "Contact";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <form asp-controller="Home" asp-action="metodoEmail" method="post">
+                <div class="mb-3">
+                    <label for="asunto" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Subject" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@gmail.com" />
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Message</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 iconCenter">
+        <label><a href="tel:34633388483"><i class="bi bi-telephone-inbound-fill icons"></i></a></label>
+    </div>
+</div>
+
+

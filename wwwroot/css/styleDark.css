@@ -1,0 +1,150 @@
+﻿.body {
+    background-color: #bad0b8;
+    background-image: -webkit-linear-gradient(right, #000000, #2C3388);
+    background-image: -moz-linear-gradient(right, #000000, #2C3388);
+    background-image: -o-linear-gradient(right, #000000, #2C3388);
+    background-image: linear-gradient(right, #000000, #2C3388);
+}
+
+.headerDark {
+    background-color: black;
+    color: white;
+}
+
+#foto {
+    width: 300px;
+    margin: 2rem auto;
+    border-radius: 5%;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 150px;
+    color: white;
+}
+
+.tituloNombre {
+    text-align: center;
+    color: white;
+}
+
+.tituloSM {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+}
+
+i{
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.iconColor{
+    color: white;
+}
+
+button{
+    width: 100%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover{
+    color: white;
+}
+
+.border{
+    border: solid 1px white;
+}
+
+.botonHome {
+    padding: 10%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.marginButon {
+    margin-bottom: 150px;
+}
+
+.icons {
+    font-size: 250px;
+    color: #b6afa6;
+}
+
+.iconCenter {
+    text-align: center;
+}
+
+.switch {
+    margin-left: 5px;
+    position: relative;
+    width: 62px;
+    height: 33px;
+}
+
+.biButton {
+    justify-content: space-between;
+}
+
+.switch #inputBoton {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fcc304;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 24px;
+        width: 24px;
+        left: 5px;
+        bottom: 5px;
+        background-color: #fff;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: white;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
+    background-color: rgb(26, 59, 122);
+}
+
+.slider.round {
+    border-radius: 34px;
+    padding-top: 3px;
+    box-shadow: 1px 1px 4px #42414173;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
