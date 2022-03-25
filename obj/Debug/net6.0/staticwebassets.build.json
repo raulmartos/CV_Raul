@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C1kmDTdbdcvoLhOyBF3OtMhB8OdTv4FF1jflelh6Nro=",
+  "Hash": "pK9j9f+oB+Ta2xFAiWSMESNqDJbbsd4G6mhn32Q7kGQ=",
   "Source": "CV_Raul",
   "BasePath": "_content/CV_Raul",
   "Mode": "Default",
@@ -1120,23 +1120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "E:\\OneDrive - Centre d'Estudis Monlau\\MONLAU\\DAW\\M7_DesenvolupamentWebEntornServidor\\Visual Studio 2022\\CV_Raul\\wwwroot\\css\\style.css",
-      "SourceId": "CV_Raul",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\OneDrive - Centre d'Estudis Monlau\\MONLAU\\DAW\\M7_DesenvolupamentWebEntornServidor\\Visual Studio 2022\\CV_Raul\\wwwroot\\",
-      "BasePath": "_content/CV_Raul",
-      "RelativePath": "css/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "E:\\OneDrive - Centre d'Estudis Monlau\\MONLAU\\DAW\\M7_DesenvolupamentWebEntornServidor\\Visual Studio 2022\\CV_Raul\\wwwroot\\css\\styleDark.css",

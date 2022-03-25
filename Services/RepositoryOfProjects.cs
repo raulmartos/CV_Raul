@@ -11,7 +11,7 @@ namespace CV_Raul.Services
 				{
 					Title = "ASP.net",
 					Description = "Juego realizado en ASP.NET Core",
-					Link = "php.cshtml",
+					Link = "/home/php",
 					ImageURL = "/images/asp.png"
 				},
 				new ClassProjects
