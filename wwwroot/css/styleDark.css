@@ -72,6 +72,8 @@ a:hover{
 .botonHome {
     background-color: transparent;
     border: 1px solid white;
+    padding: 5%;
+    border-radius: 10px;
 }
 
 .marginButon {
@@ -80,7 +82,7 @@ a:hover{
 
 .icons {
     font-size: 250px;
-    color: #b6afa6;
+    color: white;
 }
 
 .iconCenter {

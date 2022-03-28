@@ -56,6 +56,12 @@ namespace CV_Raul.Controllers
             return View();
         }
 
+        public IActionResult Hobbies()
+        {
+            ViewBag.VVideos = new RepositoryOfHobbies().GetProjects();
+            return View();
+        }
+
         [HttpPost]
         public IActionResult metodoEmail(ClassEmail classEmail)
         {

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Hobbies";
+}
+<h1 class="tituloSM mb-5">Hobbies</h1>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var project in ViewBag.VVideos)
+            {
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">@project.Title</h5>
+                    <p class="card-text">@project.Description</p>
+                    <video id='video_player' width="80%" height="auto" controls>
+                        <source src="@project.VideoURL"  type='video/mp4'>
+                    </video>
+                </div>
+            </div>
+        </div>
+            }
+    </div>
+</div>
